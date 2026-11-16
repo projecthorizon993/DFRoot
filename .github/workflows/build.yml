@@ -101,4 +101,6 @@ jobs:
         if: startsWith(github.ref, 'refs/tags/')
         uses: softprops/action-gh-release@v1
         with:
-          files: app/build/outputs/apk/release/DFRoot_*.apk
+          files: |
+            app/build/outputs/apk/release/DFRoot_*.apk
+            app/build/outputs/apk/debug/DFRoot_*.apk
