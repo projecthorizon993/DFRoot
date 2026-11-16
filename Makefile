@@ -7,7 +7,6 @@ ABI       := arm64-v8a
 ENGINE    := podman
 
 KMIS :=        \
-    android11-4.11  \
     android12-5.10  \
     android13-5.10  \
     android13-5.15  \
